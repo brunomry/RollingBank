@@ -8,3 +8,9 @@
     
 }
 
+@media (max-width: 767px) {
+    .img-carouselProductos{
+        height: 250px;
+        object-fit: cover;
+    }
+}
