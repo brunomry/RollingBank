@@ -1,0 +1,7 @@
+/*estilo de bootstrap*/
+.accordion-button{
+    background-color: rgb(250, 250, 250);
+}
+.accordion-button:not(.collapsed) {
+     background-color: rgb(250, 250, 250);
+}
