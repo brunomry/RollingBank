@@ -1,3 +1,8 @@
+/*destilos de bootstrap*/
+.img-carouselProductos{
+    height: 450px;
+    object-fit: cover;
+}
 
 @media (min-width: 769px) and (max-width: 1200px){
     
