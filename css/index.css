@@ -1,0 +1,12 @@
+/*destilos de bootstrap*/
+.img-carouselIndex{
+    height: 450px;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .img-carouselIndex{
+        height: 250px;
+        object-fit: cover;
+    }
+}
