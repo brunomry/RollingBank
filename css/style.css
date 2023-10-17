@@ -1,16 +1,5 @@
-/*destilos de bootstrap*/
-.img-carouselProductos{
-    height: 450px;
-    object-fit: cover;
-}
 
 @media (min-width: 769px) and (max-width: 1200px){
     
 }
 
-@media (max-width: 767px) {
-    .img-carouselProductos{
-        height: 250px;
-        object-fit: cover;
-    }
-}
