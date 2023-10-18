@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content=" pagina de seguridad de rollingBank" />
     <meta name="keywords" content=" seguridad" />
+    <meta name="author"content="Bruno Madozzo Romay, Leonel Rodrigo Cordero, Javier Exequiel Jiménez, Jeremias Romero, Leonel Lautaro Ramella"/>
     <meta
       name="author"
       content="Bruno Madozzo Romay, Leonel Rodrigo Cordero, Javier Exequiel Jiménez, Jeremias Romero, Leonel Lautaro Ramella"
@@ -15,11 +16,22 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Nunito:wght@200&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/seguridad.css">
     <title>Seguridad | RollingBank</title>
   </head>
   <body>
     <main>
+      <section
+        class="container-fluid bg-primary py-5 text-light d-flex justify-content-center"
+      >
+        <h1 class="display-3">Tu seguridad como prioridad</h1>
+      </section>
       <section class="container py-5">
         <div class="row gx-4">
           <article class="col-lg-6 order-lg-1 mb-lg-5">
@@ -93,7 +105,58 @@
             />
           </article>
         </div>
-      </section>
+        <h2>Tips de seguridad</h2>
+        <div class="accordion" id="accordionTips">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button text-primary p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Correos fraudulentos
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionTips">
+                <div class="accordion-body">
+                  <p>Los correos fraudulentos, comúnmente conocidos como "phishing", representan una amenaza persistente en el mundo digital. Estos mensajes engañosos son diseñados por ciberdelincuentes para parecer legítimos, a menudo imitando a instituciones financieras, empresas reconocidas o incluso entidades gubernamentales. Su objetivo principal es persuadir a los destinatarios a revelar información confidencial, como contraseñas, números de tarjetas de crédito o datos personales. La sofisticación de estos ataques ha aumentado con el tiempo, y los estafadores utilizan técnicas de ingeniería social para engañar a las personas. Por lo tanto, es esencial que los usuarios sean conscientes de los riesgos y se mantengan alerta, verificando siempre la autenticidad de los correos electrónicos antes de tomar cualquier acción, para proteger sus datos y su seguridad en línea.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed text-primary p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Actualizá el software de tu dispositivo
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionTips">
+                <div class="accordion-body">
+                  <p>La actualización del software en nuestros dispositivos es una práctica fundamental para mantener la seguridad y el rendimiento óptimo de los mismos. Estas actualizaciones, proporcionadas por los fabricantes de dispositivos y sistemas operativos, suelen incluir mejoras de seguridad, correcciones de errores y nuevas características.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed text-primary p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Evitá dispositivos que estén rooteados o que tengan Jailbreack
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionTips">
+                <div class="accordion-body">
+                  <p>Evitar el uso de dispositivos que estén rooteados (en el caso de Android) o que tengan jailbreak (en el caso de iOS) es una medida importante para mantener la seguridad en el uso de tecnología. El root o jailbreak es un proceso que permite a los usuarios eludir las restricciones de seguridad y personalización impuestas por los fabricantes, lo que, si bien puede ofrecer mayor flexibilidad, también abre la puerta a una serie de riesgos.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed text-primary p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  No escribas ni le cuentes a nadie tu Clave
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionTips">
+                <div class="accordion-body">
+                  <p>No escribir ni compartir tu contraseña con nadie es una de las reglas más fundamentales para mantener tus cuentas y datos seguros en línea. La contraseña es la llave que protege tus cuentas y la información personal que contienen. Si compartes tu contraseña con otras personas, estás poniendo en riesgo la seguridad de tus cuentas y datos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
